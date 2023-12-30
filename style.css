@@ -142,15 +142,15 @@ footer{
     border-top-right-radius: 40px;
 }
 footer .logoo{
-    padding: 20px 20px;
+    font-size: larger;
+    padding: 20px 50px;
     font-weight: bolder;
 
 }
 .parah{
-    padding-left: 20px;
+    font-size: large;
+    padding-left: 50px;
     max-width: 300px;
-    font-weight: bold;
+    font-weight: bolder;
 }
-.footer-shade{
-    
-}
+
