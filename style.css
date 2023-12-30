@@ -8,6 +8,7 @@
 }
 
 
+
 body{
     margin: 1rem;
     background-color: #ebeae9;
@@ -87,7 +88,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     
 
 }
@@ -97,5 +99,58 @@ main .img2{
     border: 4px double rgb(0, 0, 0);
     border-radius: 40px;
 }
+/*main ends*/
+/*different types of art starts*/
+section.main-section{
+    padding: 0 4rem;
+    font-size:1.2rem;
+}
+.sub-hding{
+    font-size: 1.2rem;
+    padding-left: 3rem;
+}
+section ul{
+    list-style-type: square;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
+}
+.image-container img{
+    height:500px;
+    width:400px;
+    margin: 50px;
+    border: 16px double rgb(224, 156, 8);
+}
+.image-container .items h1{
+    font-size: 2rem;
+    color: rgb(53, 53, 53);
+    margin-left: 1rem;
+}
 
+footer{
+    width:97vw;
+    height: 300px;
+    background-image: url("catherine-kay-greenup-CxazbdJlojg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border:5px solid black;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+footer .logoo{
+    padding: 20px 20px;
+    font-weight: bolder;
+
+}
+.parah{
+    padding-left: 20px;
+    max-width: 300px;
+    font-weight: bold;
+}
+.footer-shade{
+    
+}
