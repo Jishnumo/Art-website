@@ -1,0 +1,36 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*importing font style from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 1rem;
+    background-color: #ebeae9;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+nav section .menu-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul.logo{
+    list-style: none;
+    font-weight: bold;
+    padding:0 3rem;
+    }
+nav .menu-bar span{
+    height: 5px;
+    color:black;
+    border:2px solid black;
+}
+
+
+
