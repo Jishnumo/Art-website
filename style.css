@@ -189,6 +189,7 @@ footer{
     background-image: url("output-onlinepngtools.png");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     border:5px solid black;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
