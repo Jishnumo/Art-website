@@ -29,7 +29,9 @@ nav{
     color: #fff;
     padding: 20px;
     margin-bottom: 5rem;
-    background-color: #d4461797;
+    background-image: linear-gradient(135deg, #f53703f3 10%, #f5d220ef 100%);
+    transition: top 0.3s;
+    background-attachment: fixed;
     border: 1px solid transparent;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
